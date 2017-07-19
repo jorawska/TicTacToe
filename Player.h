@@ -3,11 +3,11 @@
 
 class Player
 {
-private:
-    char symbol;
-    bool win;
-
 public:
+    char symbol;
+    int points;
+
+
     char chooseSymbol();
     int chooseSquare();
 };

@@ -80,52 +80,52 @@ CMakeFiles/TicTacToe.dir/main.cpp.obj.provides: CMakeFiles/TicTacToe.dir/main.cp
 CMakeFiles/TicTacToe.dir/main.cpp.obj.provides.build: CMakeFiles/TicTacToe.dir/main.cpp.obj
 
 
-CMakeFiles/TicTacToe.dir/Logic.cpp.obj: CMakeFiles/TicTacToe.dir/flags.make
-CMakeFiles/TicTacToe.dir/Logic.cpp.obj: ../Logic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Justine\Desktop\TicTacToe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TicTacToe.dir/Logic.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TicTacToe.dir\Logic.cpp.obj -c C:\Users\Justine\Desktop\TicTacToe\Logic.cpp
+CMakeFiles/TicTacToe.dir/Game.cpp.obj: CMakeFiles/TicTacToe.dir/flags.make
+CMakeFiles/TicTacToe.dir/Game.cpp.obj: ../Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Justine\Desktop\TicTacToe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TicTacToe.dir/Game.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TicTacToe.dir\Game.cpp.obj -c C:\Users\Justine\Desktop\TicTacToe\Game.cpp
 
-CMakeFiles/TicTacToe.dir/Logic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/Logic.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Justine\Desktop\TicTacToe\Logic.cpp > CMakeFiles\TicTacToe.dir\Logic.cpp.i
+CMakeFiles/TicTacToe.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/Game.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Justine\Desktop\TicTacToe\Game.cpp > CMakeFiles\TicTacToe.dir\Game.cpp.i
 
-CMakeFiles/TicTacToe.dir/Logic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/Logic.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Justine\Desktop\TicTacToe\Logic.cpp -o CMakeFiles\TicTacToe.dir\Logic.cpp.s
+CMakeFiles/TicTacToe.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/Game.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Justine\Desktop\TicTacToe\Game.cpp -o CMakeFiles\TicTacToe.dir\Game.cpp.s
 
-CMakeFiles/TicTacToe.dir/Logic.cpp.obj.requires:
+CMakeFiles/TicTacToe.dir/Game.cpp.obj.requires:
 
-.PHONY : CMakeFiles/TicTacToe.dir/Logic.cpp.obj.requires
+.PHONY : CMakeFiles/TicTacToe.dir/Game.cpp.obj.requires
 
-CMakeFiles/TicTacToe.dir/Logic.cpp.obj.provides: CMakeFiles/TicTacToe.dir/Logic.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Logic.cpp.obj.provides.build
-.PHONY : CMakeFiles/TicTacToe.dir/Logic.cpp.obj.provides
+CMakeFiles/TicTacToe.dir/Game.cpp.obj.provides: CMakeFiles/TicTacToe.dir/Game.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Game.cpp.obj.provides.build
+.PHONY : CMakeFiles/TicTacToe.dir/Game.cpp.obj.provides
 
-CMakeFiles/TicTacToe.dir/Logic.cpp.obj.provides.build: CMakeFiles/TicTacToe.dir/Logic.cpp.obj
+CMakeFiles/TicTacToe.dir/Game.cpp.obj.provides.build: CMakeFiles/TicTacToe.dir/Game.cpp.obj
 
 
-CMakeFiles/TicTacToe.dir/Display.cpp.obj: CMakeFiles/TicTacToe.dir/flags.make
-CMakeFiles/TicTacToe.dir/Display.cpp.obj: ../Display.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Justine\Desktop\TicTacToe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TicTacToe.dir/Display.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TicTacToe.dir\Display.cpp.obj -c C:\Users\Justine\Desktop\TicTacToe\Display.cpp
+CMakeFiles/TicTacToe.dir/Board.cpp.obj: CMakeFiles/TicTacToe.dir/flags.make
+CMakeFiles/TicTacToe.dir/Board.cpp.obj: ../Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Justine\Desktop\TicTacToe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TicTacToe.dir/Board.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TicTacToe.dir\Board.cpp.obj -c C:\Users\Justine\Desktop\TicTacToe\Board.cpp
 
-CMakeFiles/TicTacToe.dir/Display.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/Display.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Justine\Desktop\TicTacToe\Display.cpp > CMakeFiles\TicTacToe.dir\Display.cpp.i
+CMakeFiles/TicTacToe.dir/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/Board.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Justine\Desktop\TicTacToe\Board.cpp > CMakeFiles\TicTacToe.dir\Board.cpp.i
 
-CMakeFiles/TicTacToe.dir/Display.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/Display.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Justine\Desktop\TicTacToe\Display.cpp -o CMakeFiles\TicTacToe.dir\Display.cpp.s
+CMakeFiles/TicTacToe.dir/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/Board.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Justine\Desktop\TicTacToe\Board.cpp -o CMakeFiles\TicTacToe.dir\Board.cpp.s
 
-CMakeFiles/TicTacToe.dir/Display.cpp.obj.requires:
+CMakeFiles/TicTacToe.dir/Board.cpp.obj.requires:
 
-.PHONY : CMakeFiles/TicTacToe.dir/Display.cpp.obj.requires
+.PHONY : CMakeFiles/TicTacToe.dir/Board.cpp.obj.requires
 
-CMakeFiles/TicTacToe.dir/Display.cpp.obj.provides: CMakeFiles/TicTacToe.dir/Display.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Display.cpp.obj.provides.build
-.PHONY : CMakeFiles/TicTacToe.dir/Display.cpp.obj.provides
+CMakeFiles/TicTacToe.dir/Board.cpp.obj.provides: CMakeFiles/TicTacToe.dir/Board.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Board.cpp.obj.provides.build
+.PHONY : CMakeFiles/TicTacToe.dir/Board.cpp.obj.provides
 
-CMakeFiles/TicTacToe.dir/Display.cpp.obj.provides.build: CMakeFiles/TicTacToe.dir/Display.cpp.obj
+CMakeFiles/TicTacToe.dir/Board.cpp.obj.provides.build: CMakeFiles/TicTacToe.dir/Board.cpp.obj
 
 
 CMakeFiles/TicTacToe.dir/Player.cpp.obj: CMakeFiles/TicTacToe.dir/flags.make
@@ -155,16 +155,16 @@ CMakeFiles/TicTacToe.dir/Player.cpp.obj.provides.build: CMakeFiles/TicTacToe.dir
 # Object files for target TicTacToe
 TicTacToe_OBJECTS = \
 "CMakeFiles/TicTacToe.dir/main.cpp.obj" \
-"CMakeFiles/TicTacToe.dir/Logic.cpp.obj" \
-"CMakeFiles/TicTacToe.dir/Display.cpp.obj" \
+"CMakeFiles/TicTacToe.dir/Game.cpp.obj" \
+"CMakeFiles/TicTacToe.dir/Board.cpp.obj" \
 "CMakeFiles/TicTacToe.dir/Player.cpp.obj"
 
 # External object files for target TicTacToe
 TicTacToe_EXTERNAL_OBJECTS =
 
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/main.cpp.obj
-TicTacToe.exe: CMakeFiles/TicTacToe.dir/Logic.cpp.obj
-TicTacToe.exe: CMakeFiles/TicTacToe.dir/Display.cpp.obj
+TicTacToe.exe: CMakeFiles/TicTacToe.dir/Game.cpp.obj
+TicTacToe.exe: CMakeFiles/TicTacToe.dir/Board.cpp.obj
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/Player.cpp.obj
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/build.make
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/linklibs.rsp
@@ -179,8 +179,8 @@ CMakeFiles/TicTacToe.dir/build: TicTacToe.exe
 .PHONY : CMakeFiles/TicTacToe.dir/build
 
 CMakeFiles/TicTacToe.dir/requires: CMakeFiles/TicTacToe.dir/main.cpp.obj.requires
-CMakeFiles/TicTacToe.dir/requires: CMakeFiles/TicTacToe.dir/Logic.cpp.obj.requires
-CMakeFiles/TicTacToe.dir/requires: CMakeFiles/TicTacToe.dir/Display.cpp.obj.requires
+CMakeFiles/TicTacToe.dir/requires: CMakeFiles/TicTacToe.dir/Game.cpp.obj.requires
+CMakeFiles/TicTacToe.dir/requires: CMakeFiles/TicTacToe.dir/Board.cpp.obj.requires
 CMakeFiles/TicTacToe.dir/requires: CMakeFiles/TicTacToe.dir/Player.cpp.obj.requires
 
 .PHONY : CMakeFiles/TicTacToe.dir/requires

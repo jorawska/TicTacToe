@@ -1,17 +1,19 @@
 #ifndef TICTACTOE_DISPLAY_H
 #define TICTACTOE_DISPLAY_H
+static const int SIZE = 9;
 
 class Board
 {
 private:
-    char square[9];
-    int choice;
-    char symbol;
+    char square[SIZE];
+
 
 public:
-    void drawBoard();
-    void clearBoard();
+    void draw();
+    void reset();
     bool changeSquare(int choice, char symbol);
+    bool checkEnd();
+    char checkWin();
 
 };
 

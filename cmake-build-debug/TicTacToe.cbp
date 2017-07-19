@@ -82,16 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/Display.cpp">
+		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/Board.cpp">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/Display.h">
+		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/Board.h">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/Logic.cpp">
+		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/Game.cpp">
 			<Option target="TicTacToe"/>
 		</Unit>
-		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/Logic.h">
+		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/Game.h">
 			<Option target="TicTacToe"/>
 		</Unit>
 		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/Player.cpp">

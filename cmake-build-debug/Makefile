@@ -122,59 +122,59 @@ TicTacToe/fast:
 	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/build
 .PHONY : TicTacToe/fast
 
-Display.obj: Display.cpp.obj
+Board.obj: Board.cpp.obj
 
-.PHONY : Display.obj
-
-# target to build an object file
-Display.cpp.obj:
-	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Display.cpp.obj
-.PHONY : Display.cpp.obj
-
-Display.i: Display.cpp.i
-
-.PHONY : Display.i
-
-# target to preprocess a source file
-Display.cpp.i:
-	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Display.cpp.i
-.PHONY : Display.cpp.i
-
-Display.s: Display.cpp.s
-
-.PHONY : Display.s
-
-# target to generate assembly for a file
-Display.cpp.s:
-	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Display.cpp.s
-.PHONY : Display.cpp.s
-
-Logic.obj: Logic.cpp.obj
-
-.PHONY : Logic.obj
+.PHONY : Board.obj
 
 # target to build an object file
-Logic.cpp.obj:
-	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Logic.cpp.obj
-.PHONY : Logic.cpp.obj
+Board.cpp.obj:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Board.cpp.obj
+.PHONY : Board.cpp.obj
 
-Logic.i: Logic.cpp.i
+Board.i: Board.cpp.i
 
-.PHONY : Logic.i
+.PHONY : Board.i
 
 # target to preprocess a source file
-Logic.cpp.i:
-	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Logic.cpp.i
-.PHONY : Logic.cpp.i
+Board.cpp.i:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Board.cpp.i
+.PHONY : Board.cpp.i
 
-Logic.s: Logic.cpp.s
+Board.s: Board.cpp.s
 
-.PHONY : Logic.s
+.PHONY : Board.s
 
 # target to generate assembly for a file
-Logic.cpp.s:
-	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Logic.cpp.s
-.PHONY : Logic.cpp.s
+Board.cpp.s:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Board.cpp.s
+.PHONY : Board.cpp.s
+
+Game.obj: Game.cpp.obj
+
+.PHONY : Game.obj
+
+# target to build an object file
+Game.cpp.obj:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Game.cpp.obj
+.PHONY : Game.cpp.obj
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Game.cpp.s
+.PHONY : Game.cpp.s
 
 Player.obj: Player.cpp.obj
 
@@ -239,12 +239,12 @@ help:
 	@echo ... TicTacToe
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Display.obj
-	@echo ... Display.i
-	@echo ... Display.s
-	@echo ... Logic.obj
-	@echo ... Logic.i
-	@echo ... Logic.s
+	@echo ... Board.obj
+	@echo ... Board.i
+	@echo ... Board.s
+	@echo ... Game.obj
+	@echo ... Game.i
+	@echo ... Game.s
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s

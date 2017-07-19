@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Justine/Desktop/TicTacToe/Display.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Display.cpp.obj"
-  "C:/Users/Justine/Desktop/TicTacToe/Logic.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Logic.cpp.obj"
+  "C:/Users/Justine/Desktop/TicTacToe/Board.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Board.cpp.obj"
+  "C:/Users/Justine/Desktop/TicTacToe/Game.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Game.cpp.obj"
   "C:/Users/Justine/Desktop/TicTacToe/Player.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Player.cpp.obj"
   "C:/Users/Justine/Desktop/TicTacToe/main.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/main.cpp.obj"
   )

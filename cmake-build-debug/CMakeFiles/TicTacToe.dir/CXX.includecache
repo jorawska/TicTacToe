@@ -6,15 +6,25 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Justine/Desktop/TicTacToe/Display.cpp
+C:/Users/Justine/Desktop/TicTacToe/Board.cpp
 iostream
 -
-Display.h
-C:/Users/Justine/Desktop/TicTacToe/Display.h
+Board.h
+C:/Users/Justine/Desktop/TicTacToe/Board.h
 
-C:/Users/Justine/Desktop/TicTacToe/Display.h
+C:/Users/Justine/Desktop/TicTacToe/Board.h
 
-C:/Users/Justine/Desktop/TicTacToe/Logic.cpp
+C:/Users/Justine/Desktop/TicTacToe/Game.cpp
+iostream
+-
+Game.h
+C:/Users/Justine/Desktop/TicTacToe/Game.h
+Board.h
+C:/Users/Justine/Desktop/TicTacToe/Board.h
+Player.h
+C:/Users/Justine/Desktop/TicTacToe/Player.h
+
+C:/Users/Justine/Desktop/TicTacToe/Game.h
 
 C:/Users/Justine/Desktop/TicTacToe/Player.cpp
 Player.h
@@ -25,8 +35,10 @@ iostream
 C:/Users/Justine/Desktop/TicTacToe/Player.h
 
 C:/Users/Justine/Desktop/TicTacToe/main.cpp
-Display.h
-C:/Users/Justine/Desktop/TicTacToe/Display.h
+Board.h
+C:/Users/Justine/Desktop/TicTacToe/Board.h
 Player.h
 C:/Users/Justine/Desktop/TicTacToe/Player.h
+Game.h
+C:/Users/Justine/Desktop/TicTacToe/Game.h
 
