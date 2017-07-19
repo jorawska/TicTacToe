@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Pliki Justyny/TicTacToe/main.cpp" "D:/Pliki Justyny/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/main.cpp.obj"
+  "C:/Users/Justine/Desktop/TicTacToe/Display.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Display.cpp.obj"
+  "C:/Users/Justine/Desktop/TicTacToe/Logic.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Logic.cpp.obj"
+  "C:/Users/Justine/Desktop/TicTacToe/Player.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Player.cpp.obj"
+  "C:/Users/Justine/Desktop/TicTacToe/main.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

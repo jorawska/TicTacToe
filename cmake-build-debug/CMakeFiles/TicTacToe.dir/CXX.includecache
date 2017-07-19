@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Justine/Desktop/TicTacToe/Display.cpp
+iostream
+-
+Display.h
+C:/Users/Justine/Desktop/TicTacToe/Display.h
+
+C:/Users/Justine/Desktop/TicTacToe/Display.h
+
+C:/Users/Justine/Desktop/TicTacToe/Logic.cpp
+
+C:/Users/Justine/Desktop/TicTacToe/Player.cpp
+Player.h
+C:/Users/Justine/Desktop/TicTacToe/Player.h
+iostream
+-
+
+C:/Users/Justine/Desktop/TicTacToe/Player.h
+
+C:/Users/Justine/Desktop/TicTacToe/main.cpp
+Display.h
+C:/Users/Justine/Desktop/TicTacToe/Display.h
+Player.h
+C:/Users/Justine/Desktop/TicTacToe/Player.h
+
