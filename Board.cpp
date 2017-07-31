@@ -1,5 +1,7 @@
 #include <iostream>
 #include "Board.h"
+
+
 void Board::draw()
 {
 
@@ -51,7 +53,7 @@ bool Board::checkEnd()
 {
     for(int i = 0; i < SIZE; i++)
     {
-        if (square[i] != 'X' || square[i] !='O')
+        if (!(square[i] == 'X' || square[i] == 'O'))
         {
             return false;
         }
@@ -59,64 +61,90 @@ bool Board::checkEnd()
     return true;
 }
 
-char Board::checkWin()
+bool Board::checkWinRows(char &winner)
 {
-       //ROWS
-       if(square[0] == square[1] && square[1] == square[2])
-       {
-           std::cout << square[0] << " wins!" <<std::endl;
-           return  square[0];
+    if(square[0] == square[1] && square[1] == square[2])
+    {
+        winner = square[0];
+        return true;
+    }
 
-       }
+    else if(square[3] == square[4] && square[4] == square[5])
+    {
+        winner = square[3];
+        return true;
+    }
 
-       else if(square[3] == square[4] && square[4] == square[5])
-       {
-           std::cout << square[3] << " wins!" <<std::endl;
-           return  square[3];
-       }
+    else if(square[6] == square[7] && square[7] == square[8])
+    {
+        winner = square[6];
+        return true;
+    }
+    else
+    {
+       return false;
+    }
+}
+bool Board::checkWinCollumns(char &winner)
+{
+    if(square[0] == square[3] && square[3] == square[6])
+    {
+        winner = square[0];
+        return true;
+    }
 
-       else if(square[6] == square[7] && square[7] == square[8])
-       {
-           std::cout << square[6] << " wins!" <<std::endl;
-           return  square[6];
-       }
+    else if(square[1] == square[4] && square[4] == square[7])
+    {
+        winner = square[1];
+        return true;
+    }
 
-       //COLUMNS
-        else if(square[0] == square[3] && square[3] == square[6])
-       {
-           std::cout << square[0] << " wins!" <<std::endl;
-           return  square[0];
-       }
+    else if(square[2] == square[5] && square[5] == square[8])
+    {
+        winner = square[2];
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+bool Board::checkWinDiagonals(char &winner)
+{
+    if(square[0] == square[4] && square[4] == square[8])
+    {
+        winner = square[0];
+        return true;
+    }
 
-       else if(square[1] == square[4] && square[4] == square[7])
-       {
-           std::cout << square[1] << " wins!" <<std::endl;
-           return  square[1];
-       }
+    else if(square[2] == square[4] && square[4] == square[6])
+    {
+        winner = square[2];
+        return true;
+    } else
+    {
+        return false;
+    }
 
-       else if(square[2] == square[5] && square[5] == square[8])
-       {
-           std::cout << square[2] << " wins!" <<std::endl;
-           return  square[2];
-       }
-        //DIAGONALS
-       else if(square[0] == square[4] && square[4] == square[8])
-       {
-           std::cout << square[0] << " wins!" <<std::endl;
-           return  square[0];
-       }
+}
+bool Board::checkWinElse(char &winner)
+{
+    if (checkEnd() == true)
+    {
+        winner = '0';
+        return true;
+    }
 
-       else if(square[2] == square[4] && square[4] == square[6])
-       {
-           std::cout << square[2] << " wins!" <<std::endl;
-           return  square[2];
-       }
-
-         else if (checkEnd() == true)
-       {
-           std::cout << "Draw! Nobody wins!" <<std::endl;
-           return '1';
-       }
-
-         else return '0';
+    else
+    {
+        return false;
+    }
+}
+bool Board::checkWin(char &winner)
+{
+    if(checkWinRows(winner) || checkWinCollumns(winner) || checkWinDiagonals(winner) || checkWinElse(winner))
+    {
+        return true;
+    }
+    else return false;
 }

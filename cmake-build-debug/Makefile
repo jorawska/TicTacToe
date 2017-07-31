@@ -122,6 +122,33 @@ TicTacToe/fast:
 	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/build
 .PHONY : TicTacToe/fast
 
+AI.obj: AI.cpp.obj
+
+.PHONY : AI.obj
+
+# target to build an object file
+AI.cpp.obj:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/AI.cpp.obj
+.PHONY : AI.cpp.obj
+
+AI.i: AI.cpp.i
+
+.PHONY : AI.i
+
+# target to preprocess a source file
+AI.cpp.i:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/AI.cpp.i
+.PHONY : AI.cpp.i
+
+AI.s: AI.cpp.s
+
+.PHONY : AI.s
+
+# target to generate assembly for a file
+AI.cpp.s:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/AI.cpp.s
+.PHONY : AI.cpp.s
+
 Board.obj: Board.cpp.obj
 
 .PHONY : Board.obj
@@ -203,6 +230,33 @@ Player.cpp.s:
 	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+Scores.obj: Scores.cpp.obj
+
+.PHONY : Scores.obj
+
+# target to build an object file
+Scores.cpp.obj:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Scores.cpp.obj
+.PHONY : Scores.cpp.obj
+
+Scores.i: Scores.cpp.i
+
+.PHONY : Scores.i
+
+# target to preprocess a source file
+Scores.cpp.i:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Scores.cpp.i
+.PHONY : Scores.cpp.i
+
+Scores.s: Scores.cpp.s
+
+.PHONY : Scores.s
+
+# target to generate assembly for a file
+Scores.cpp.s:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Scores.cpp.s
+.PHONY : Scores.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -239,6 +293,9 @@ help:
 	@echo ... TicTacToe
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... AI.obj
+	@echo ... AI.i
+	@echo ... AI.s
 	@echo ... Board.obj
 	@echo ... Board.i
 	@echo ... Board.s
@@ -248,6 +305,9 @@ help:
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s
+	@echo ... Scores.obj
+	@echo ... Scores.i
+	@echo ... Scores.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

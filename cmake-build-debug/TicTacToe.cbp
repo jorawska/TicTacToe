@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/AI.cpp">
+			<Option target="TicTacToe"/>
+		</Unit>
+		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/AI.h">
+			<Option target="TicTacToe"/>
+		</Unit>
 		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/Board.cpp">
 			<Option target="TicTacToe"/>
 		</Unit>
@@ -98,6 +104,12 @@
 			<Option target="TicTacToe"/>
 		</Unit>
 		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/Player.h">
+			<Option target="TicTacToe"/>
+		</Unit>
+		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/Scores.cpp">
+			<Option target="TicTacToe"/>
+		</Unit>
+		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/Scores.h">
 			<Option target="TicTacToe"/>
 		</Unit>
 		<Unit filename="C:/Users/Justine/Desktop/TicTacToe/main.cpp">

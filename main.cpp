@@ -1,10 +1,9 @@
-#include "Board.h"
-#include "Player.h"
 #include "Game.h"
+//todo: ai, GRAPHIC INTERFACE PLZ
 
 int main()
 {
-    Gameplay();
+   Menu();
 
     return 0;
 }

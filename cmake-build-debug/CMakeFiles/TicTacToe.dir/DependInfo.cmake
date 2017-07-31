@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Justine/Desktop/TicTacToe/AI.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/AI.cpp.obj"
   "C:/Users/Justine/Desktop/TicTacToe/Board.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Board.cpp.obj"
   "C:/Users/Justine/Desktop/TicTacToe/Game.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Game.cpp.obj"
   "C:/Users/Justine/Desktop/TicTacToe/Player.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Player.cpp.obj"
+  "C:/Users/Justine/Desktop/TicTacToe/Scores.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/Scores.cpp.obj"
   "C:/Users/Justine/Desktop/TicTacToe/main.cpp" "C:/Users/Justine/Desktop/TicTacToe/cmake-build-debug/CMakeFiles/TicTacToe.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

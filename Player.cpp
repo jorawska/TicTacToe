@@ -1,18 +1,20 @@
-#include "Player.h"
 #include <iostream>
+#include "Player.h"
 
 char Player::chooseSymbol()
 {
     char users_choice;
     bool end = false;
     std::cout << "Choose O or X" << std::endl;
-    users_choice = std::cin.get();
-    std::cin.ignore(256, '\n');
+
     while(!end)
     {
-        if (users_choice == 'X' || users_choice == 'x' || users_choice == 'o' || users_choice == 'O')
+        users_choice = std::cin.get();
+        std::cin.ignore(256, '\n');
+        users_choice = toupper(users_choice);
+        if (users_choice == 'X' || users_choice == 'O')
         {
-            users_choice = toupper(users_choice);
+
             end = true;
         }
         else
@@ -27,21 +29,15 @@ char Player::chooseSymbol()
 int Player::chooseSquare()
 {
     int users_square;
-    bool end;
     std::cout << "Choose square" <<  std::endl;
-    std::cin >> users_square;
-    do
-    {
-        if (users_square == 0)
+
+    while(!(std::cin >> users_square) || users_square == 0)
         {
-            std::cout << "Wrong choice, try again" << std::endl;
-        }
-        else
-        {
-            end = true;
+            std::cin.clear();
+            std::cin.ignore();
         }
 
-        }while(!end);
+
 
     return users_square;
 }

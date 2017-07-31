@@ -152,12 +152,62 @@ CMakeFiles/TicTacToe.dir/Player.cpp.obj.provides: CMakeFiles/TicTacToe.dir/Playe
 CMakeFiles/TicTacToe.dir/Player.cpp.obj.provides.build: CMakeFiles/TicTacToe.dir/Player.cpp.obj
 
 
+CMakeFiles/TicTacToe.dir/Scores.cpp.obj: CMakeFiles/TicTacToe.dir/flags.make
+CMakeFiles/TicTacToe.dir/Scores.cpp.obj: ../Scores.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Justine\Desktop\TicTacToe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TicTacToe.dir/Scores.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TicTacToe.dir\Scores.cpp.obj -c C:\Users\Justine\Desktop\TicTacToe\Scores.cpp
+
+CMakeFiles/TicTacToe.dir/Scores.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/Scores.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Justine\Desktop\TicTacToe\Scores.cpp > CMakeFiles\TicTacToe.dir\Scores.cpp.i
+
+CMakeFiles/TicTacToe.dir/Scores.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/Scores.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Justine\Desktop\TicTacToe\Scores.cpp -o CMakeFiles\TicTacToe.dir\Scores.cpp.s
+
+CMakeFiles/TicTacToe.dir/Scores.cpp.obj.requires:
+
+.PHONY : CMakeFiles/TicTacToe.dir/Scores.cpp.obj.requires
+
+CMakeFiles/TicTacToe.dir/Scores.cpp.obj.provides: CMakeFiles/TicTacToe.dir/Scores.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Scores.cpp.obj.provides.build
+.PHONY : CMakeFiles/TicTacToe.dir/Scores.cpp.obj.provides
+
+CMakeFiles/TicTacToe.dir/Scores.cpp.obj.provides.build: CMakeFiles/TicTacToe.dir/Scores.cpp.obj
+
+
+CMakeFiles/TicTacToe.dir/AI.cpp.obj: CMakeFiles/TicTacToe.dir/flags.make
+CMakeFiles/TicTacToe.dir/AI.cpp.obj: ../AI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Justine\Desktop\TicTacToe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TicTacToe.dir/AI.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TicTacToe.dir\AI.cpp.obj -c C:\Users\Justine\Desktop\TicTacToe\AI.cpp
+
+CMakeFiles/TicTacToe.dir/AI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/AI.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Justine\Desktop\TicTacToe\AI.cpp > CMakeFiles\TicTacToe.dir\AI.cpp.i
+
+CMakeFiles/TicTacToe.dir/AI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/AI.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Justine\Desktop\TicTacToe\AI.cpp -o CMakeFiles\TicTacToe.dir\AI.cpp.s
+
+CMakeFiles/TicTacToe.dir/AI.cpp.obj.requires:
+
+.PHONY : CMakeFiles/TicTacToe.dir/AI.cpp.obj.requires
+
+CMakeFiles/TicTacToe.dir/AI.cpp.obj.provides: CMakeFiles/TicTacToe.dir/AI.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/AI.cpp.obj.provides.build
+.PHONY : CMakeFiles/TicTacToe.dir/AI.cpp.obj.provides
+
+CMakeFiles/TicTacToe.dir/AI.cpp.obj.provides.build: CMakeFiles/TicTacToe.dir/AI.cpp.obj
+
+
 # Object files for target TicTacToe
 TicTacToe_OBJECTS = \
 "CMakeFiles/TicTacToe.dir/main.cpp.obj" \
 "CMakeFiles/TicTacToe.dir/Game.cpp.obj" \
 "CMakeFiles/TicTacToe.dir/Board.cpp.obj" \
-"CMakeFiles/TicTacToe.dir/Player.cpp.obj"
+"CMakeFiles/TicTacToe.dir/Player.cpp.obj" \
+"CMakeFiles/TicTacToe.dir/Scores.cpp.obj" \
+"CMakeFiles/TicTacToe.dir/AI.cpp.obj"
 
 # External object files for target TicTacToe
 TicTacToe_EXTERNAL_OBJECTS =
@@ -166,11 +216,13 @@ TicTacToe.exe: CMakeFiles/TicTacToe.dir/main.cpp.obj
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/Game.cpp.obj
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/Board.cpp.obj
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/Player.cpp.obj
+TicTacToe.exe: CMakeFiles/TicTacToe.dir/Scores.cpp.obj
+TicTacToe.exe: CMakeFiles/TicTacToe.dir/AI.cpp.obj
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/build.make
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/linklibs.rsp
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/objects1.rsp
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Justine\Desktop\TicTacToe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable TicTacToe.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Justine\Desktop\TicTacToe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable TicTacToe.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TicTacToe.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -182,6 +234,8 @@ CMakeFiles/TicTacToe.dir/requires: CMakeFiles/TicTacToe.dir/main.cpp.obj.require
 CMakeFiles/TicTacToe.dir/requires: CMakeFiles/TicTacToe.dir/Game.cpp.obj.requires
 CMakeFiles/TicTacToe.dir/requires: CMakeFiles/TicTacToe.dir/Board.cpp.obj.requires
 CMakeFiles/TicTacToe.dir/requires: CMakeFiles/TicTacToe.dir/Player.cpp.obj.requires
+CMakeFiles/TicTacToe.dir/requires: CMakeFiles/TicTacToe.dir/Scores.cpp.obj.requires
+CMakeFiles/TicTacToe.dir/requires: CMakeFiles/TicTacToe.dir/AI.cpp.obj.requires
 
 .PHONY : CMakeFiles/TicTacToe.dir/requires
 
