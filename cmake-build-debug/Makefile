@@ -257,6 +257,33 @@ Scores.cpp.s:
 	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Scores.cpp.s
 .PHONY : Scores.cpp.s
 
+Window.obj: Window.cpp.obj
+
+.PHONY : Window.obj
+
+# target to build an object file
+Window.cpp.obj:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Window.cpp.obj
+.PHONY : Window.cpp.obj
+
+Window.i: Window.cpp.i
+
+.PHONY : Window.i
+
+# target to preprocess a source file
+Window.cpp.i:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Window.cpp.i
+.PHONY : Window.cpp.i
+
+Window.s: Window.cpp.s
+
+.PHONY : Window.s
+
+# target to generate assembly for a file
+Window.cpp.s:
+	$(MAKE) -f CMakeFiles\TicTacToe.dir\build.make CMakeFiles/TicTacToe.dir/Window.cpp.s
+.PHONY : Window.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -308,6 +335,9 @@ help:
 	@echo ... Scores.obj
 	@echo ... Scores.i
 	@echo ... Scores.s
+	@echo ... Window.obj
+	@echo ... Window.i
+	@echo ... Window.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

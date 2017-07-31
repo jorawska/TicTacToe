@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.7.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.7.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.7.2/CMakeSystem.cmake"
+  "../cmake_modules/FindSFML.cmake"
   "D:/Pliki Justyny/clion/CLion 2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeCInformation.cmake"
   "D:/Pliki Justyny/clion/CLion 2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeCXXInformation.cmake"
   "D:/Pliki Justyny/clion/CLion 2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake"
